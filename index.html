@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Foodplaza </title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200&display=swap" rel="stylesheet">
 
@@ -14,17 +17,22 @@
 <body>
     <nav id="navbar">
         <div id="logo">
-            <img src="logo..png" alt="MyOnlineMeal.Com">
+            <h1>FOODPLAZA</h1>
         </div>
         <ul>
-            <ul>
-                <li class="item"><a href="#">Home</a></li>
-                <li class="item"><a href="#services">Servises</a></li>
-                <li class="item"><a href="#">About Us</a></li>
-                <li class="item"><a href="#contact">Contact Us</a></li>
-            </ul>
+
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Servises</a></li>
+            <li class="item"><a href="#about">About Us</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+
 
         </ul>
+        <div>
+
+            <button><a href="">sign up</a></button>
+            <button><a href="">sign in</a></button>
+        </div>
     </nav>
 
     <section id="home">
@@ -34,43 +42,115 @@
         <button class="btn">Order Now</button>
     </section>
 
-    <section class="services-container" id="services">
-        <h1 class="h-primary center">Our Services</h1>
-        <div id="services">
+    <section id="services">
+        <h1 class="heading">Our Services</h1>
+        <div class="row">
             <div class="box">
-                <img src="pizza.1.jpg" alt="">
+                <img src="img/pizza.1.jpg" alt="">
                 <h2 class="h-secondary center">Food Ordering</h2>
-                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil adipisci doloribus laboriosam ad?</p>
+                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil adipisci
+                    doloribus laboriosam ad?</p>
             </div>
             <div class="box">
-                <img src="img.jpg1.jpg" alt="">
+                <img src="img/img.jpg1.jpg" alt="">
                 <h2 class="h-secondary center">Food Catering</h2>
-                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil adipisci, doloribus laboriosam ad?</p>
+                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil adipisci,
+                    doloribus laboriosam ad?</p>
             </div>
             <div class="box">
-                <img src="img4.jpg" alt="">
+                <img src="img/img4.jpg" alt="">
                 <h2 class="h-secondary center">Bulk Ordering</h2>
-                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil adipisci, estdoloribus laboriosam ad?</p>
+                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nihil adipisci,
+                    estdoloribus laboriosam ad?</p>
             </div>
         </div>
     </section>
-    <section id="client-section">
-        <h1 class="h-primary center">Our clients</h1>
+    <!-- <section id="client-section">
+
+        <h1 class="heading">Our clients</h1>
         <div id="clients">
             <div class="client-item">
-                <img src="logo3.png" alt="Our Client">
+                <img src="img/logo3.png" alt="Our Client">
             </div>
             <div class="client-item">
-                <img src="logo2png.png" alt="Our Client">
+                <img src="img/logo2png.png" alt="Our Client">
             </div>
             <div class="client-item">
-                <img src="logo5.png.jpg" alt="Our Client">
+                <img src="img/logo5.png.jpg" alt="Our Client">
             </div>
             <div class="client-item">
-                <img src="hp_logo_PNG1.png" alt="Our Client">
+                <img src="img/hp_logo_PNG1.png" alt="Our Client">
             </div>
             <div class="client-item">
-                <img src="logo3.png" alt="Our Client">
+                <img src="img/logo3.png" alt="Our Client">
+            </div>
+
+        </div>
+
+    </section> -->
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's review </h1>
+
+        <div class="box-container">
+
+            <div class="client-box">
+                <img src="img/pic1.png" alt="">
+                <h3>john deo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur
+                    ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                    Exercitationem, unde rem.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="client-box">
+                <img src="img/pic2.png" alt="">
+                <h3>john deo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur
+                    ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                    Exercitationem, unde rem.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+            <div class="client-box">
+                <img src="img/pic3.png" alt="">
+                <h3>john deo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur
+                    ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                    Exercitationem, unde rem.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="client-box">
+                <img src="img/logo..png" alt="">
+                <h3>john deo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur
+                    ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores?
+                    Exercitationem, unde rem.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
 
         </div>
@@ -78,31 +158,42 @@
     </section>
 
     <section id="contact">
-        <h1 class="h-primary center">Contact Us</h1>
-        <div id="contact-box">
-            <form action="">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text"name="name" id="name" placeholder="Enter Your name">
-                </div>
-                <div class="form-group">
-                    <label for="name">Email</label>
-                    <input type="text"Email="name" id="name" placeholder="Enter Your Email">
-                </div>
-                <div class="form-group">
-                    <label for="name">Phone Number</label>
-                    <input type="text"name="name" id="name" placeholder="Enter Your Phone">
-                </div>
-                <div class="form-group">
-                    <label for="name">Messege</label>
-                    <textarea name="messege" id="messege" cols="30" rows="10"></textarea>
-                </div>
-            </form>
+        <h1 class="heading">Contact Us</h1>
+        <div class="contact-page">
+            <div class="map">
+                <address>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.1203288123406!2d79.10109311391605!3d21.107768390454552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf4ec91a86fd%3A0xcb0929f3b9cbf1e2!2sBardi%20Rd%2C%20Mahalaxmi%20Nagar%2C%20Ambika%20Nagar%2C%20Ayodhya%20nagar%2C%20Nagpur%2C%20Maharashtra%20440027!5e0!3m2!1sen!2sin!4v1675944120247!5m2!1sen!2sin"
+                        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </address>
+            </div>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="text" Email="name" id="name" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Phone Number</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Messege</label>
+                        <textarea name="messege" id="messege" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="btn"><a href="">submit</a></button>
+                </form>
+            </div>
         </div>
     </section>
     <footer>
         <div class="center">
-            Copyright &copy; www.MyOnlineMeal.Com.All rights reserved !
+            <p>all right rserved by firdosh</p>
         </div>
     </footer>
 </body>
